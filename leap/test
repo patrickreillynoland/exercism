@@ -1,0 +1,12 @@
+when passing input in -
+
+var Year = function(input) {
+    var year = input;
+};
+
+it('is not very common', function() {
+    var year = new Year(2015);
+    expect(year.isLeap()).toBe(false);
+  });
+
+
